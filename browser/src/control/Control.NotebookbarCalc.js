@@ -74,12 +74,12 @@ L.Control.NotebookbarCalc = L.Control.NotebookbarWriter.extend({
 				'name': 'View',
 				'accessibility': { focusBack: true,	combination: 'W', de: null }
 			},
-			{
-				'id': 'Help-tab-label',
-				'text': _('Help'),
-				'name': 'Help',
-				'accessibility': { focusBack: true,	combination: 'Y1', de: null }
-			}
+			// {
+			// 	'id': 'Help-tab-label',
+			// 	'text': _('Help'),
+			// 	'name': 'Help',
+			// 	'accessibility': { focusBack: true,	combination: 'Y1', de: null }
+			// }
 		];
 	},
 
@@ -95,7 +95,7 @@ L.Control.NotebookbarCalc = L.Control.NotebookbarWriter.extend({
 				this.getFormatTab(),
 				this.getDrawTab(),
 				this.getViewTab(),
-				this.getHelpTab()
+				// this.getHelpTab()
 			], selectedId);
 	},
 
@@ -244,17 +244,17 @@ L.Control.NotebookbarCalc = L.Control.NotebookbarWriter.extend({
 					}
 				]
 			},
-			{
-				'type': 'container',
-				'children': [
-					{
-						'id': 'renamedocument',
-						'class': 'unoRenameDocument',
-						'type': 'bigcustomtoolitem',
-						'text': _('Rename'),
-					}
-				]
-			}
+			// {
+			// 	'type': 'container',
+			// 	'children': [
+			// 		{
+			// 			'id': 'renamedocument',
+			// 			'class': 'unoRenameDocument',
+			// 			'type': 'bigcustomtoolitem',
+			// 			'text': _('Rename'),
+			// 		}
+			// 	]
+			// }
 		);
 
 		return this.getTabPage('File', content);
