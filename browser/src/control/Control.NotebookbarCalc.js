@@ -1793,13 +1793,13 @@ L.Control.NotebookbarCalc = L.Control.NotebookbarWriter.extend({
 				'command': '.uno:SpellDialog',
 				'accessibility': { focusBack: true,	combination: 'S', de: null }
 			},
-			{
-				'id': 'LanguageMenu',
-				'type': 'bigcustomtoolitem',
-				'text': _UNO('.uno:LanguageMenu'),
-				'command': 'languagemenu',
-				'accessibility': { focusBack: true,	combination: 'L', de: null }
-			},
+			// {
+			// 	'id': 'LanguageMenu',
+			// 	'type': 'bigcustomtoolitem',
+			// 	'text': _UNO('.uno:LanguageMenu'),
+			// 	'command': 'languagemenu',
+			// 	'accessibility': { focusBack: true,	combination: 'L', de: null }
+			// },
 			{
 				'id': 'Review-Section-Language1',
 				'type': 'container',

@@ -2099,13 +2099,13 @@ L.Control.NotebookbarWriter = L.Control.Notebookbar.extend({
 				'command': '.uno:ThesaurusDialog',
 				'accessibility': { focusBack: false, combination: 'E', de: null }
 			},
-			{
-				'id': 'LanguageMenu:LanguageMenu',
-				'type': 'menubutton',
-				'text': _UNO('.uno:LanguageMenu'),
-				'command': '.uno:LanguageMenu',
-				'accessibility': { focusBack: false, combination: 'ZL', de: null }
-			},
+			// {
+			// 	'id': 'LanguageMenu:LanguageMenu',
+			// 	'type': 'menubutton',
+			// 	'text': _UNO('.uno:LanguageMenu'),
+			// 	'command': '.uno:LanguageMenu',
+			// 	'accessibility': { focusBack: false, combination: 'ZL', de: null }
+			// },
 			window.deeplEnabled ?
 				{
 					'id': 'review-translate',
