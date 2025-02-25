@@ -1518,6 +1518,7 @@ L.Control.JSDialogBuilder = L.Control.extend({
 	},
 
 	_pushbuttonControl: function(parentContainer, data, builder, customCallback) {
+		if(data.id === 'help') return false;
 		if (data.id && data.id === 'changepass' && builder.map['wopi'].IsOwner === false) {
 			data.enabled = false;
 		}
